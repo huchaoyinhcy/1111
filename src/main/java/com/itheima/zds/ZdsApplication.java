@@ -13,8 +13,9 @@ public class ZdsApplication {
     public static void main(String[] args) {
         SpringApplication.run(ZdsApplication.class, args);
     }
-@RequestMapping("/test")
+
+    @RequestMapping("/test")
     public String zds() {
-        return "zhangdiaos";
+        return "zhangdiaosss1";
     }
 }
