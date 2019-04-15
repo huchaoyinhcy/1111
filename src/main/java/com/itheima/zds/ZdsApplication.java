@@ -16,6 +16,6 @@ public class ZdsApplication {
 
     @RequestMapping("/test")
     public String zds() {
-        return "zhangdiaosss4";
+        return "zhangdiaosss2";
     }
 }
